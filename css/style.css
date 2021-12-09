@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e0ccb8;
+}
+.container {
+  
+  border: 2px solid #d0b395;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+/* media - video */
+.hd_01 video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  box-shadow: 0px 0px 35px 0px rgba(65, 65, 84, 0.99);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(47, 79, 79, 0.39);
+  margin: 0;
+  padding: 0;
+}
+.social_icon {
+  /* padding: 5px 10px; */
+  margin: 2px;
+  top: 0;
+  left: 0;
+}
+.social_icon a {
+  margin: 5px;
+  padding: 2px;
+  font-size: 20px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.titleOnTop {
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+main {
+  display: flex;
+}
+.art {
+  display: block;
+}
+
+.right_site {
+  width: 30%;
+  border-left: 1px solid #d0b395;
+  padding-left: 5px;
+}
+
+.right_site p {
+  max-width: 100%;
+}
+.art-contener {
+  width: 70%;
+  padding: 10px;
+  margin: 0 15px;
+}
+.aside_right li {
+  margin-bottom: 15px;
+  list-style-type: square;
+}
+.aside_right a {
+  text-decoration: none;
+  color: #b30000;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+}
+.aside_right p{
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #d0b395;
+}
+footer a {
+  text-decoration: none;
+}
+/* img */
+.art img {
+  max-width: 70%;
+  height: auto;
+  box-shadow: 0px 0px 35px 0px rgba(65, 65, 84, 0.99);
+}
+.right_site img {
+  max-width: 40%;
+  float: left;
+  margin-right: 10px;
+  box-shadow: 0px 0px 35px 0px rgba(65, 65, 84, 0.99);
+ 
+}
+.right_site_img img{
+  width: 50%;
+  height: auto;
+  
+}
+/*hover*/
+nav a:hover {
+  text-decoration: underline;
+  color: #b30000;
+  text-shadow: 1px 1px black;
+}
+.aside_right a:hover {
+  text-shadow: 1px 1px black;
+  font-size: 18px;
+}
